@@ -1,4 +1,4 @@
-FROM 		debian 
+FROM 		debian:stable-slim 
 MAINTAINER	jeroen@pyromanic.nl
 RUN		apt-get update &&\
 		apt-get dist-upgrade -y &&\
